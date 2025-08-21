@@ -2,6 +2,7 @@
 
 A Kotlin library for parsing and building BER TLV (Basic Encoding Rules Tag-Length-Value) data structures, commonly used in payment processing and EMV applications.
 
+![Jitpack](https://jitpack.io/v/bsreeram08/Ber-TLV-Kotlin.svg)
 ![Release](https://github.com/bsreeram08/Ber-TLV-Kotlin/actions/workflows/release.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 ![Kotlin](https://img.shields.io/badge/kotlin-2.1.21-blue.svg)
@@ -17,28 +18,42 @@ A Kotlin library for parsing and building BER TLV (Basic Encoding Rules Tag-Leng
 - Extensive logging support for debugging
 
 ## Installation
-NOTE : Only available as a jar
 
-### Gradle (Kotlin DSL) (Not uploaded yet)
+**How to change the version:**
+Change 1.0.2 in the snippets above to any release or tag from this repository.
+
+### Gradle (Kotlin DSL)
 ```kotlin
+repositories {
+    maven { url = uri("https://jitpack.io") }
+}
 dependencies {
-    implementation("com.sreeram.tlv:tlv-library:1.0.0")
+    implementation("com.github.bsreeram08:Ber-TLV-Kotlin:1.0.2")
 }
 ```
 
-### Gradle (Groovy) (Not uploaded yet)
+### Gradle (Groovy)
 ```groovy
+repositories {
+    maven { url 'https://jitpack.io' }
+}
 dependencies {
-    implementation 'com.sreeram.tlv:tlv-library:1.0.0'
+    implementation 'com.github.bsreeram08:Ber-TLV-Kotlin:1.0.2'
 }
 ```
 
 ### Maven (Not uploaded yet)
 ```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 <dependency>
-    <groupId>com.sreeram.tlv</groupId>
-    <artifactId>tlv-library</artifactId>
-    <version>1.0.0</version>
+<groupId>com.github.bsreeram08</groupId>
+<artifactId>Ber-TLV-Kotlin</artifactId>
+<version>1.0.2</version>
 </dependency>
 ```
 
