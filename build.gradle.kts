@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.sreeram.tlv"
-version = "1.0.0"
+version = "1.0.2"
 
 repositories {
     mavenCentral()
@@ -33,11 +33,11 @@ tasks.jar {
         )
     }
 
-    // Include source files in JAR for debugging (optional)
-    from(sourceSets.main.get().allSource)
-
     archiveClassifier.set("")
     archiveBaseName.set("tlv-library")
+
+    // Include source files in JAR for debugging (optional)
+    from(sourceSets.main.get().output)
 }
 
 // Create a sources JAR
