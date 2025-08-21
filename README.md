@@ -2,9 +2,9 @@
 
 A Kotlin library for parsing and building BER TLV (Basic Encoding Rules Tag-Length-Value) data structures, commonly used in payment processing and EMV applications.
 
-![Build Status](https://github.com/bsreeram08/Ber-TLV-Kotlin/workflows/CI/badge.svg)
+![Release](https://github.com/bsreeram08/Ber-TLV-Kotlin/actions/workflows/release.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
-![Kotlin](https://img.shields.io/badge/kotlin-1.9.0-blue.svg)
+![Kotlin](https://img.shields.io/badge/kotlin-2.1.21-blue.svg)
 ![Java](https://img.shields.io/badge/java-21-orange.svg)
 
 ## Features
