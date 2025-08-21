@@ -9,7 +9,7 @@ By participating in this project, you agree to maintain a respectful and inclusi
 ## Getting Started
 
 1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/tlv-library-kotlin.git`
+2. Clone your fork: `git clone https://github.com/bsreeram08/Ber-TLV-Kotlin.git`
 3. Create a new branch: `git checkout -b feature/your-feature-name`
 
 ## Development Setup

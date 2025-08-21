@@ -2,6 +2,11 @@
 
 A Kotlin library for parsing and building BER TLV (Basic Encoding Rules Tag-Length-Value) data structures, commonly used in payment processing and EMV applications.
 
+![Build Status](https://github.com/bsreeram08/Ber-TLV-Kotlin/workflows/CI/badge.svg)
+![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
+![Kotlin](https://img.shields.io/badge/kotlin-1.9.0-blue.svg)
+![Java](https://img.shields.io/badge/java-21-orange.svg)
+
 ## Features
 
 - Parse BER TLV data from byte arrays
@@ -12,22 +17,23 @@ A Kotlin library for parsing and building BER TLV (Basic Encoding Rules Tag-Leng
 - Extensive logging support for debugging
 
 ## Installation
+NOTE : Only available as a jar
 
-### Gradle (Kotlin DSL)
+### Gradle (Kotlin DSL) (Not uploaded yet)
 ```kotlin
 dependencies {
     implementation("com.sreeram.tlv:tlv-library:1.0.0")
 }
 ```
 
-### Gradle (Groovy)
+### Gradle (Groovy) (Not uploaded yet)
 ```groovy
 dependencies {
     implementation 'com.sreeram.tlv:tlv-library:1.0.0'
 }
 ```
 
-### Maven
+### Maven (Not uploaded yet)
 ```xml
 <dependency>
     <groupId>com.sreeram.tlv</groupId>
